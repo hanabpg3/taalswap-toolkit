@@ -60,6 +60,9 @@ export type Colors = {
   textDisabled: string;
   textSubtle: string;
   disabled: string;
+  inputSmall: string;
+  inputBtn:string;
+  detailsBg:string;
 
   // Gradients
   gradients: Gradients;

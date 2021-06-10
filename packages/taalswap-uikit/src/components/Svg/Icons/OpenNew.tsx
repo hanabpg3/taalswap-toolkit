@@ -4,9 +4,13 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg viewBox="0 0 24 24" {...props}>
-      <path d="M18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H11C11.55 5 12 4.55 12 4C12 3.45 11.55 3 11 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13C21 12.45 20.55 12 20 12C19.45 12 19 12.45 19 13V18C19 18.55 18.55 19 18 19ZM14 4C14 4.55 14.45 5 15 5H17.59L8.46 14.13C8.07 14.52 8.07 15.15 8.46 15.54C8.85 15.93 9.48 15.93 9.87 15.54L19 6.41V9C19 9.55 19.45 10 20 10C20.55 10 21 9.55 21 9V4C21 3.45 20.55 3 20 3H15C14.45 3 14 3.45 14 4Z" />
-    </Svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="12.307" height="12.089" viewBox="0 0 12.307 12.089" {...props} style={{marginLeft:"5px"}}>
+    <g id="그룹_847" data-name="그룹 847" transform="translate(-155.242 268.594) rotate(-90)">
+      <path id="패스_129" data-name="패스 129" d="M261.052,156.3c-.012-.011-.482-.5-.482-.5-1.688-1.688-3.236-1.086-3.907-.5a2.753,2.753,0,0,0,.326,4.2l1.6,1.6a2.7,2.7,0,0,0,3.63-.272" transform="translate(1.414 1.414)" fill="none" stroke="#00ab55" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="패스_130" data-name="패스 130" d="M265.406,167.593c.012.011.674.7.674.7a2.813,2.813,0,0,0,3.907.5,2.682,2.682,0,0,0-.326-4.2l-1.6-1.6a2.7,2.7,0,0,0-3.63.272" transform="translate(-3.001 -2.666)" fill="none" stroke="#00ab55" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </svg>
+  
   );
 };
 

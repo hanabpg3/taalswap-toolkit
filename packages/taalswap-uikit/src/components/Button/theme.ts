@@ -53,4 +53,11 @@ export const styleVariants = {
     color: "primary",
     boxShadow: "none",
   },
+  [variants.HELPBTN]: {
+    backgroundColor: "transparent",
+    border: "1px solid",
+    borderColor: "inputBtn",
+    boxShadow: "none",
+    color: "textSubtle",
+  },
 };

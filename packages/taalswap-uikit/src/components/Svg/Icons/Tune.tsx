@@ -4,10 +4,17 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg viewBox="0 0 24 24" {...props}>
-      <path d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z" />
-    </Svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" {...props}>
+    <g id="그룹_346" data-name="그룹 346" transform="translate(-1284 -241)">
+      <rect id="사각형_43" data-name="사각형 43" width="10" height="3" rx="1.5" transform="translate(1284 243)" fill="#00ab55"/>
+      <circle id="타원_9" data-name="타원 9" cx="3.5" cy="3.5" r="3.5" transform="translate(1296 241)" fill="#00ab55"/>
+      <rect id="사각형_44" data-name="사각형 44" width="10" height="3" rx="1.5" transform="translate(1297 243)" fill="#00ab55"/>
+      <rect id="사각형_45" data-name="사각형 45" width="10" height="3" rx="1.5" transform="translate(1307 256) rotate(180)" fill="#00ab55"/>
+      <circle id="타원_10" data-name="타원 10" cx="3.5" cy="3.5" r="3.5" transform="translate(1295 258) rotate(180)" fill="#00ab55"/>
+      <rect id="사각형_46" data-name="사각형 46" width="10" height="3" rx="1.5" transform="translate(1294 256) rotate(180)" fill="#00ab55"/>
+    </g>
+  </svg>
+  
   );
 };
 
